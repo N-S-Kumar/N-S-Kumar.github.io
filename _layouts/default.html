@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}" />
+    <style>
+      :root {
+        --bg: #f5f1ea;
+        --surface: rgba(255, 255, 255, 0.72);
+        --surface-border: rgba(35, 28, 21, 0.1);
+        --text: #1f1a17;
+        --muted: #5f564f;
+        --accent: #7a4b2a;
+        --shadow: 0 20px 60px rgba(35, 28, 21, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at top, rgba(255, 255, 255, 0.8), transparent 45%),
+          linear-gradient(180deg, #faf7f2 0%, var(--bg) 100%);
+        color: var(--text);
+        font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+        line-height: 1.7;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration-thickness: 0.08em;
+        text-underline-offset: 0.15em;
+      }
+
+      a:hover {
+        text-decoration-color: currentColor;
+      }
+
+      .page {
+        width: min(920px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 4rem 0 3rem;
+      }
+
+      .shell {
+        padding: 2rem;
+        border: 1px solid var(--surface-border);
+        border-radius: 28px;
+        background: var(--surface);
+        backdrop-filter: blur(14px);
+        box-shadow: var(--shadow);
+      }
+
+      .hero {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid var(--surface-border);
+      }
+
+      .eyebrow {
+        margin: 0 0 0.75rem;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+        font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+        font-weight: 600;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+      }
+
+      h1 {
+        max-width: 10ch;
+        font-size: clamp(2.7rem, 7vw, 5rem);
+      }
+
+      h2 {
+        margin-bottom: 0.6rem;
+        font-size: 1.35rem;
+      }
+
+      .lede {
+        max-width: 62ch;
+        margin: 1rem 0 0;
+        font-size: 1.08rem;
+        color: var(--muted);
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      .card {
+        padding: 1.25rem;
+        border: 1px solid var(--surface-border);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.52);
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .footer {
+        margin-top: 2rem;
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          width: min(100%, calc(100% - 1rem));
+          padding: 0.5rem 0 1rem;
+        }
+
+        .shell {
+          padding: 1.25rem;
+          border-radius: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <main class="shell">
+        {{ content }}
+        <footer class="footer">{{ site.title | default: "Minimal Personal Website" }}</footer>
+      </main>
+    </div>
+  </body>
+</html>

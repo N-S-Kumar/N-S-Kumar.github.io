@@ -20,13 +20,24 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: "3.3.5"
+          bundler-cache: true
 
-      - name: Install Dependencies
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install System and Python Dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          gem install bundler
-          bundle install
+          pip3 install --upgrade nbconvert --break-system-packages || pip3 install --upgrade nbconvert
+          npm install
 
       - name: Build Site
         run: |

@@ -57,4 +57,5 @@ group :al_folio_plugins do
     gem 'al_math', '= 1.0.1'
     gem 'al_comments', '= 1.0.0'
     gem 'al_newsletter', '= 1.0.0'
+    gem "jekyll-archives"
 end

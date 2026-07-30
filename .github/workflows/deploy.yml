@@ -3,8 +3,8 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
       - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -20,26 +20,15 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
-          bundler-cache: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+          ruby-version: '3.3'
 
       - name: Install Dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip install --upgrade nbconvert --break-system-packages || pip install --upgrade nbconvert
-          npm ci
+          gem install bundler
+          bundle install
 
-      - name: Build site
+      - name: Build Site
         run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build

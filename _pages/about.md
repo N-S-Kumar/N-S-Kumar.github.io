@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-nav_order:1
+nav_order:1 
 ---
 
 I am a Biology undergrad at NISER Bhubaneswar with an interest in Quantitative Biology and Biophysics, where I enjoy working on problems that reward both intuition and precision. My path has been shaped by a curiosity for how the universe behaves and how quantitative models can describe it.

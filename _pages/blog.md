@@ -8,8 +8,8 @@ nav_order: 2
 
 This is the complete archive of my writing across both streams.
 
-- [Science Notes](/science/)
-- [Reflections](/reflections/)
+- [Science Notes]({{ '/science/' | relative_url }})
+- [Reflections]({{ '/reflections/' | relative_url }})
 
 ---
 

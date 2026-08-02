@@ -19,8 +19,8 @@ Alongside science, I care deeply about **literature and philosophy**. I use read
 
 This website is my public notebook. I’ll use it to share:
 
-- [Science Notes](/science/) — scientific pursuits, ideas, and talks in physics, math, and biology.
-- [Reflections](/reflections/) — literature, philosophy, and personal essays.
-- [CV](/cv/) — current academic profile.
+- [Science Notes]({{ '/science/' | relative_url }}) — scientific pursuits, ideas, and talks in physics, math, and biology.
+- [Reflections]({{ '/reflections/' | relative_url }}) — literature, philosophy, and personal essays.
+- [CV]({{ '/cv/' | relative_url }}) — current academic profile.
 
 You can also find me on GitHub and LinkedIn through the social icons below.

@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /talks/
 title: Talks & Presentations
-description: Course materials, schedules, and resources for classes taught.
+description: Talks, presentations, and related resources.
 nav: false
 nav_order: 5
 calendar: true

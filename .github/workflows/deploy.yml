@@ -35,10 +35,10 @@ jobs:
 
       - name: Install System and Python Dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert --break-system-packages || pip3 install --upgrade nbconvert
+          sudo apt-get update && sudo apt-get install -y wkhtmltopdf
+          pip3 install --upgrade nbconvert
           npm install
-
+          
       - name: Build Site
         run: |
           export JEKYLL_ENV=production

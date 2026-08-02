@@ -10,11 +10,11 @@ This section is for my literature and philosophy notes, along with personal refl
 
 {% assign reflection_posts = site.posts | where_exp: "post", "post.categories contains 'reflections'" %}
 {% for post in reflection_posts %}
-  <article style="margin-bottom: 1.75rem;">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p style="margin: 0.2rem 0;">{{ post.date | date: "%B %d, %Y" }}</p>
-    {% if post.description %}
-      <p>{{ post.description }}</p>
-    {% endif %}
-  </article>
+
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+_{{ post.date | date: "%B %d, %Y" }}_
+
+{% if post.description %}{{ post.description }}{% endif %}
+
 {% endfor %}

@@ -1,13 +1,12 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Résumé
 nav: true
-nav_order: 5
+nav_order: 4
 cv_pdf: /assets/pdf/CV_Neeraja_NISER_second_year.pdf
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_format: rendercv
+description: Download or view my latest résumé below.
 toc:
   sidebar: left
-nav_order:2
 ---

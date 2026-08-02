@@ -6,21 +6,26 @@ subtitle: Biology undergraduate · Quantitative Biology & Biophysics
 nav_order: 1
 profile:
   align: right
-  image: prof_pic_color.png
-  image_circular: false
+  image: prof_pic.jpg
+  image_circular: true
   more_info: >
     <p>NISER Bhubaneswar</p>
     <p>India</p>
 ---
 
-Hi! I’m **Neeraja S Kumar**, a Biology undergraduate at NISER Bhubaneswar interested in **Quantitative Biology** and **Biophysics**. I like questions that sit at the intersection of mathematical modeling, biological structure, and scientific intuition.
+Hi! I’m **Neeraja S Kumar**, a Biology undergraduate at NISER Bhubaneswar interested in **Quantitative Biology** and **Biophysics**.
 
-Alongside science, I care deeply about **literature and philosophy**. I use reading and writing to think through ideas, sharpen language, and connect technical learning with personal reflection.
+I’m especially drawn to questions at the intersection of **mathematical thinking, computation, and biological systems**.
 
-This website is my public notebook. I’ll use it to share:
+Alongside science, I care deeply about **literature and reflective writing**. This website is my personal and academic space for sharing both technical notes and essays.
 
-- [Science Notes]({{ '/science/' | relative_url }}) — scientific pursuits, ideas, and talks in physics, math, and biology.
-- [Reflections]({{ '/reflections/' | relative_url }}) — literature, philosophy, and personal essays.
-- [CV]({{ '/cv/' | relative_url }}) — current academic profile.
+### Explore
+- [Science Notes]({{ '/science/' | relative_url }})
+- [Reflections]({{ '/reflections/' | relative_url }})
+- [All Writing]({{ '/blog/' | relative_url }})
+- [Résumé / CV]({{ '/cv/' | relative_url }})
 
-You can also find me on GitHub and LinkedIn through the social icons below.
+### Connect
+- [LinkedIn](https://www.linkedin.com/in/neeraja-s-kumar/)
+- [Instagram (writing)](https://instagram.com/commacommadashdash)
+- [GitHub](https://github.com/N-S-Kumar)

@@ -3,10 +3,10 @@ layout: page
 permalink: /reflections/
 title: reflections
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
-This section is for my literature and philosophy notes, along with personal reflections and regular updates.
+This section is for literature, philosophy, and personal reflection.
 
 {% assign reflection_posts = site.posts | where_exp: "post", "post.categories contains 'reflections'" %}
 {% for post in reflection_posts %}

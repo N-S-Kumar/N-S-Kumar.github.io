@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /blog/
-title: all writing
+title: writing
 nav: true
 nav_order: 2
 ---
 
-This is the complete archive of my writing across both streams.
+This is the complete archive of my writing.
 
 - [Science Notes]({{ '/science/' | relative_url }})
 - [Reflections]({{ '/reflections/' | relative_url }})

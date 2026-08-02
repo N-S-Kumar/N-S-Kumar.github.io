@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /science/
 title: science notes
+permalink: /science/
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
-This section tracks my scientific pursuits and notes from talks in physics, math, and biology.
+This section collects writing on biology, physics, mathematics, and quantitative ideas.
 
 {% assign science_posts = site.posts | where_exp: "post", "post.categories contains 'science-notes'" %}
 {% for post in science_posts %}

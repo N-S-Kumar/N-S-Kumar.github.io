@@ -7,10 +7,9 @@ email: neerajas.kumar@niser.ac.in # your email address
 #rss_icon: true # comment this line to hide the RSS icon
 
 #custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  #logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  #title: Custom Social
-  #url: https://www.alberteinstein.com/
-
+#logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#title: Custom Social
+#url: https://www.alberteinstein.com/
 
 github_username: N-S-Kumar
-linkedin_username: your-linkedin-url-id
+linkedin_username:

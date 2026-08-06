@@ -13,7 +13,7 @@ profile:
     <p>India</p>
 ---
 
-Hi! I’m **Neeraja S Kumar**, a Biology undergraduate at NISER Bhubaneswar interested in **Quantitative Biology** and **Biophysics**.
+Hi! I’m **Neeraja S Kumar**, a Biology undergraduate at NISER Bhubaneswar interested in **Quantitative Biology** and **Biophysics* 
 
 I’m especially drawn to questions at the intersection of **mathematical thinking, computation, and biological systems**.
 
